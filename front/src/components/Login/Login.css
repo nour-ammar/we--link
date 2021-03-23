@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --primary-color: #545454;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img{
+    width:100%;
+    padding:15.1%;   
+}
+
+.login {
+  font-family: "Lato", sans-serif;
+  color: black;
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.logo {
+    background-color: var(--primary-color) ;
+    text-align: center;
+}
+.form{
+    text-align: center;
+    padding:13%;   
+}
+form{
+    padding:5%
+}
+ h1 {
+    border-bottom: 3px solid var(--primary-color);
+    color: #db7386;
+    padding: 2%;
+    margin: 2%;
+}
+h5{
+    border-top: 3px solid var(--primary-color);
+    padding: 2%;
+    margin: 2%;
+
+
+}
+input , select {
+    border: none;
+    border-bottom:3px solid var(--primary-color) ;
+    margin: 2%;
+    font-size: 100%;
+    background-color: rgb(243, 239, 229);
+    padding: 2%;
+}
+ span{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#submit{
+    border: none;
+    background-color: rgb(145, 218, 193);
+    padding: 2%;
+    margin:2%;
+}
+#submit:hover{
+    cursor: pointer;
+}
+/* @media only screen and (max-width: 619px) {
+    .form {
+      padding: 15%;
+    }
+  } */
+  @media only screen and (max-width: 619px) {
+    .form {
+      padding: 5%;
+      margin-left: -100%;
+      margin-top:10%;
+      margin-bottom: 20%;
+    }
+
+    .logo{
+        margin-right: -100%;
+        margin-top: -60%;
+    }
+
+    h1{
+        font-size: 15px;
+        margin-top:25%;
+    }
+    
+  }

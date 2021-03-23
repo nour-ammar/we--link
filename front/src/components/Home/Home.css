@@ -1,0 +1,30 @@
+main img{
+    width:90%;
+}
+main img:hover{
+    -webkit-filter: drop-shadow(3px 3px 3px #222);
+    filter: drop-shadow(3px 3px 3px #222);
+    cursor: pointer;
+}
+.couverture{
+    width:100%;
+}
+@media (min-width: 800px) {
+    .couverture{
+        width:100%;
+        height: 128vh;
+    }
+    .home{
+        margin-top: -20%;
+    }
+    main{
+        margin-top:-17%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    main img{
+        width:100%;
+    }
+
+}

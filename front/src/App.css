@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --primary-color: #545454;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+.top{
+  background-color: rgb(68, 68, 66);
+  text-align: center;
+  color:white;
+  padding: 0.8%;
+  font-weight:lighter;
+}
