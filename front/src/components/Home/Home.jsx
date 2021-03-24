@@ -3,7 +3,10 @@ import "./Home.css";
 import Couverture from "../../Images/couverture-admin-home.png";
 import Enseignants from "../../Images/enseignants.png";
 import Eleves from "../../Images/eleves.png";
-import Classes from "../../Images/classes.png"
+import Classes from "../../Images/classes.png";
+import { FaBeer } from 'react-icons/fa';
+
+
 
 
 
@@ -12,12 +15,16 @@ function Home() {
   return (
     
   <div className="home">
-  <img src={Couverture} className="couverture"/>
+    <div>
+    <img src={Couverture} className="couverture"/>
+    </div>
+  
   <main>
       <img src={Enseignants}/>
       <img src={Eleves}/>
       <img src={Classes}/>
   </main>
+  
   </div>
     
   );

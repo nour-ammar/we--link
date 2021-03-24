@@ -11,16 +11,19 @@ main img:hover{
 }
 @media (min-width: 800px) {
     .couverture{
-        width:100%;
-        height: 128vh;
-    }
-    .home{
         margin-top: -20%;
+        width:100%;
+        height: 133vh;
+        padding: 15% 8%;
     }
+    /* .home{
+        margin-top: -20%;
+    } */
     main{
         margin-top:-17%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding:0 3%;
         
     }
     main img{

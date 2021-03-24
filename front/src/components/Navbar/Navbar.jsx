@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../../Images/logoWhite.png"
 import "./Navbar.css";
+import { FiLogOut} from 'react-icons/fi';
+
+
+
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -59,7 +63,7 @@ const NavBar = () => {
                 onClick={handleClose}
                 style={{  color: location.pathname === "/" && "#96897f" , fontWeight: location.pathname === "/" && "normal"  }}
               >
-                Home
+                Acceuil
               </Link>
             </li>
             <li>
@@ -68,7 +72,8 @@ const NavBar = () => {
                 onClick={handleClose}
                 style={{ color: location.pathname === "/about" && "#96897f" , fontWeight: location.pathname === "/about" && "normal"  }}
               >
-                About
+                Annonce   
+
               </Link>
             </li>
             <li>
@@ -77,7 +82,7 @@ const NavBar = () => {
                 onClick={handleClose}
                 style={{ color: location.pathname === "/education" && "#96897f" }}
               >
-                Education
+                Réunions 
               </Link>
               </li>
             <li>
@@ -86,16 +91,15 @@ const NavBar = () => {
                 onClick={handleClose}
                 style={{ color: location.pathname === "/skills" && "#96897f" }}
               >
-                Skills
+                Messagerie  
+
+
+
               </Link>
             </li>
             <li>
-              <Link
-                to="/works"
-                onClick={handleClose}
-                style={{ color: location.pathname === "/works" && "#96897f" }}
-              >
-                Works
+              <Link>
+              Logout 
               </Link>
             </li>
           </ul>
