@@ -27,3 +27,45 @@
     background-color: rgb(204, 238, 247);
     padding: 1%;
 }
+.annonce-left input[type=textarea]{
+    border: none;
+    background-color: azure;
+    width:80%;
+    font-size:10px;
+}
+.annonce-left input[type=file]{
+    border: none;
+    background-color: azure;
+    width:37%;
+    font-size:10px;
+}
+.annonce-left input[type=submit]{
+    border: none;
+    background-color: rgb(157, 207, 207);
+    width:10%;
+    font-size:10px;
+}
+.annonce-left input[type=submit]:hover{
+    background-color: rgb(55, 138, 138);
+}
+.left-pub-div{
+    padding:2%;
+
+}
+.left-pub-div button{
+    border:none;
+    padding:1.5%;
+    background-color: rgb(221, 214, 119);
+}
+.left-pub-div button:hover{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.left-pub button{
+    margin-top: 10% ;
+
+}
+
+
+
+

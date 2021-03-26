@@ -6,11 +6,11 @@ function Annonce() {
     <div className="annonce">
       <main>
         <div className="annonce-left">
+
           <form>
-            <label>Publier une nouvelle annonce :</label><br/>
-            <input type="textarea" />
+            <input type="textarea" placeholder="Ecrire une nouvellle annonce..." />
             <input type="file" />
-            <input type="submit" />
+            <input type="submit" value="Publier"/>
           </form>
           <br/>
           <div className="left-pub">
@@ -23,8 +23,9 @@ function Annonce() {
                 provident voluptatum sint, quae vero eveniet facere
                 reprehenderit optio vitae temporibus! At, quidem.
               </p>
-              <button>Afficher plus de détails</button>
+              <button>Détails</button>
             </div>
+            <button>Afficher plus</button>
           </div>
         </div>
         <div className="annonce-right">right</div>
