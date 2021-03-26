@@ -68,9 +68,9 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/about"
+                to="/annonce"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/about" && "#96897f" , fontWeight: location.pathname === "/about" && "normal"  }}
+                style={{ color: location.pathname === "/annonce" && "#96897f" , fontWeight: location.pathname === "/annonce" && "normal"  }}
               >
                 Annonce   
 

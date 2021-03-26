@@ -4,31 +4,18 @@ import Couverture from "../../Images/couverture-admin-home.png";
 import Enseignants from "../../Images/enseignants.png";
 import Eleves from "../../Images/eleves.png";
 import Classes from "../../Images/classes.png";
-import { FaBeer } from 'react-icons/fa';
-
-
-
-
-
+import { FaBeer } from "react-icons/fa";
 
 function Home() {
   return (
-    
-  <div className="home">
-    <div>
-    <img src={Couverture} className="couverture"/>
+    <div className="home">
+      <main>
+        <img src={Enseignants} />
+        <img src={Eleves} />
+        <img src={Classes} />
+      </main>
     </div>
-  
-  <main>
-      <img src={Enseignants}/>
-      <img src={Eleves}/>
-      <img src={Classes}/>
-  </main>
-  
-  </div>
-    
   );
-  ;
 }
 
 export default Home;

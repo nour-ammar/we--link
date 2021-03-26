@@ -9,7 +9,14 @@
   padding: 0;
   margin: 0;
 }
-
+hr{
+  
+  margin:2% 8%;
+  margin-top: -2%;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  height: 2px;
+  border: 0;
+}
 
 .App {
   text-align: center;
