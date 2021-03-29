@@ -1,5 +1,6 @@
 main img{
     width:100%;
+    padding: 10% 30%;
 }
 main img:hover{
     -webkit-filter: drop-shadow(3px 3px 3px #222);
@@ -7,7 +8,7 @@ main img:hover{
     cursor: pointer;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1000px) {
    
      .home{
          height: 80vh;
@@ -17,11 +18,14 @@ main img:hover{
         /* margin-top:-6.5%; */
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding:0 3%;
+        padding:0 5%;
         
     }
     main img{
         width:100%;
+        padding: 10%;
+
     }
 
 }
+

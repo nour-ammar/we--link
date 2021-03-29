@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../../Images/logoWhite.png"
 import "./Navbar.css";
-import { FiLogOut} from 'react-icons/fi';
 
 
 
@@ -61,7 +60,7 @@ const NavBar = () => {
               <Link
                 to="/"
                 onClick={handleClose}
-                style={{  color: location.pathname === "/" && "#96897f" , fontWeight: location.pathname === "/" && "normal"  }}
+                style={{  backgroundColor: location.pathname === "/" && "rgb(205, 233, 235)" , fontWeight: location.pathname === "/" && "normal"  }}
               >
                 Acceuil
               </Link>
@@ -70,7 +69,7 @@ const NavBar = () => {
               <Link
                 to="/annonce"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/annonce" && "#96897f" , fontWeight: location.pathname === "/annonce" && "normal"  }}
+                style={{ backgroundColor: location.pathname === "/annonce" && "rgb(205, 233, 235)" , fontWeight: location.pathname === "/annonce" && "normal"  }}
               >
                 Annonce   
 
@@ -78,9 +77,9 @@ const NavBar = () => {
             </li>
             <li>
               <Link
-                to="/education"
+                to="/réunions"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/education" && "#96897f" }}
+                style={{ backgroundColor: location.pathname === "/réunions" && "rgb(205, 233, 235)" }}
               >
                 Réunions 
               </Link>
@@ -89,7 +88,7 @@ const NavBar = () => {
               <Link
                 to="/skills"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/skills" && "#96897f" }}
+                style={{ backgroundColor: location.pathname === "/skills" && "rgb(205, 233, 235)" }}
               >
                 Messagerie  
 

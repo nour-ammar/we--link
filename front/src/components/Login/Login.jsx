@@ -5,7 +5,7 @@ function Login() {
   return (
     <div className="login">
       {/* this is the left side */}
-      <div className="logo">
+      <div className="logo-login">
         <img src={logoGris} alt="" />
       </div>
       {/* this is the right side */}

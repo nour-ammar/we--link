@@ -1,71 +1,123 @@
-.annonce{
-    padding:1%;
-    /* background-color: blueviolet; */
-    margin:0 3.3%;
-}
-.annonce main{
-    margin: 1% 1%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap:5%;
-}
-.annonce-left{
-    background-color: rgb(247, 224, 224);
-    padding: 3%;
-}
-.annonce-left form {
-    padding: 2%;
-    background-color: rgb(248, 248, 248);
-}
 
-.left-pub h3{
-    background-color:rgb(255, 197, 197) ;
+@media (min-width: 1000px) {
+    .annonce{
+        padding:1%;
+        /* background-color: blueviolet; */
+        margin:0 3.3%;
+        margin-top:-2%
+    }
+    .annonce main{
+        margin: 1% 1%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap:5%;
+    }
+    .annonce-left{
+        background-color: rgb(247, 224, 224);
+        padding: 3%;
+    }
+    .annonce-right{
+        background-color: rgb(247, 224, 224);
+        padding: 3%;  
+    }
+    .annonce-left form {
+        padding: 2%;
+        background-color: rgb(248, 248, 248);
+    }
+    
+    .left-pub h3{
+        background-color:rgb(255, 197, 197) ;
+        text-align: center;
+        padding: 1%;
+    }
+    .left-pub-div{
+        background-color: rgb(204, 238, 247);
+        padding: 1%;
+    }
+    .annonce-left input[type=textarea]{
+        border: 1px solid rgb(219, 214, 214) ;
+        background-color: rgb(255, 255, 255);
+        width:80%;
+        font-size:10px;
+    }
+    .annonce-left input[type=file]{
+        border: 1px solid rgb(219, 214, 214) ;
+        background-color: rgb(255, 255, 255);
+        width:37%;
+        font-size:10px;
+    }
+    .annonce-left input[type=submit]{
+        border: none;
+        background-color: rgb(157, 207, 207);
+        width:10%;
+        font-size:10px;
+    }
+    .annonce-left input[type=submit]:hover{
+        background-color: rgb(55, 138, 138);
+    }
+    .left-pub-div{
+        margin-top: 1%;
+        padding:2%;
+        border: 1px solid rgb(219, 214, 214) ;
+        display: grid;
+        grid-template-columns: 20% 80%;
+    
+    }
+    .annonce-right{
+    background-color: white;
+    }
+    .left-pub-div img{
+        margin: 0;
+        padding: 6%;
+     width: 100%;
+     max-height: 17vh;
+     /* border-radius: 50%; */
+    }
+    .left-pub-div button{
+        margin-top: 1%;
+        border:none;
+        padding:1.5%;
+        background-color: rgb(190, 183, 77);
+    }
+    .left-pub-div button:hover{
+        background-color: rgb(151, 173, 50);
+        cursor: pointer;
+    }
+    .plus{
+        margin-top: 1%;
+        width:20%;
+        border:none;
+        padding:1.5%;
+        background-color: rgb(233, 135, 66);
+        margin-left:80%;    
+    }
+    .plus:hover{
+        background-color: rgb(163, 74, 11);
+    
+    }
+    p{
+        padding: 2%;
+        background-color: white;
+    }
+    .left-pub-div h4{
+        padding: 1%;
+        background-color: white;
+        margin:1% 0;
+        width:33%;
+    }
+    .annonce-right .left-pub h3{
+        background-color:rgb(204, 181, 241) ;
+        text-align: center;
+        padding: 1%;
+    }
+    
+    .annonce-right .left-pub-div{
+        background-color: rgb(190, 157, 162);
+        padding: 1%;
+    }
+    .rl{
     text-align: center;
     padding: 1%;
+    font-size: 10px;
+    }
 }
-.left-pub-div{
-    background-color: rgb(204, 238, 247);
-    padding: 1%;
-}
-.annonce-left input[type=textarea]{
-    border: none;
-    background-color: azure;
-    width:80%;
-    font-size:10px;
-}
-.annonce-left input[type=file]{
-    border: none;
-    background-color: azure;
-    width:37%;
-    font-size:10px;
-}
-.annonce-left input[type=submit]{
-    border: none;
-    background-color: rgb(157, 207, 207);
-    width:10%;
-    font-size:10px;
-}
-.annonce-left input[type=submit]:hover{
-    background-color: rgb(55, 138, 138);
-}
-.left-pub-div{
-    padding:2%;
-
-}
-.left-pub-div button{
-    border:none;
-    padding:1.5%;
-    background-color: rgb(221, 214, 119);
-}
-.left-pub-div button:hover{
-    background-color: chocolate;
-    cursor: pointer;
-}
-.left-pub button{
-    margin-top: 10% ;
-
-}
-
-
-
-

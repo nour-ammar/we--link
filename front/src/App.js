@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Annonce from "./components/Annonce/Annonce";
+import Réunions from "./components/Réunions/Réunions"
 function App() {
   return (
     <div className="app">
@@ -17,6 +18,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/annonce" component={Annonce} />
+            <Route exact path="/réunions" component={Réunions} />
+
           </Switch>
           <Footer />
         </div>

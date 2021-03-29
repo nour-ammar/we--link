@@ -9,7 +9,7 @@
   padding: 0;
   margin: 0;
 }
-img{
+.login img{
     width:100%;
     padding:15.1%;   
 }
@@ -23,7 +23,7 @@ img{
   overflow: hidden;
 }
 
-.logo {
+.logo-login {
     background-color: var(--primary-color) ;
     text-align: center;
 }
@@ -75,14 +75,14 @@ input , select {
     }
   } */
   @media only screen and (max-width: 619px) {
-    .form {
+    .login .form {
       padding: 5%;
       margin-left: -100%;
       margin-top:10%;
       margin-bottom: 20%;
     }
 
-    .logo{
+    .logo-login {
         margin-right: -100%;
         margin-top: -60%;
     }
