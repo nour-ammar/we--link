@@ -128,5 +128,12 @@ hr{
     color: balck#4d4b4b;
     /* transform: scale(0.8); */
 background-color: rgb(205, 233, 235);  }
+.ri{
+  font-size: 30px;
+  vertical-align: middle;
+    text-align: center;
+    margin:10%;
+    cursor: pointer;
+}
  
 }

@@ -3,26 +3,29 @@
     .annonce{
         padding:1%;
         /* background-color: blueviolet; */
-        margin:0 3.3%;
-        margin-top:-2%
+        margin:0 3%;
+        margin-top:-2%;
+        margin-left:0;
+
     }
     .annonce main{
         margin: 1% 1%;
         display: grid;
         grid-template-columns: 50% 50%;
-        gap:5%;
+        gap:3.5%;
     }
     .annonce-left{
-        background-color: rgb(247, 224, 224);
+        /* background-color: rgb(247, 224, 224); */
         padding: 3%;
     }
     .annonce-right{
-        background-color: rgb(247, 224, 224);
+        /* background-color: rgb(247, 224, 224); */
         padding: 3%;  
     }
     .annonce-left form {
         padding: 2%;
-        background-color: rgb(248, 248, 248);
+        background-color: rgb(250, 239, 239);
+        border-radius: 0.5rem;
     }
     
     .left-pub h3{
@@ -31,26 +34,31 @@
         padding: 1%;
     }
     .left-pub-div{
-        background-color: rgb(204, 238, 247);
+        background-color: rgb(202, 240, 234);
         padding: 1%;
     }
     .annonce-left input[type=textarea]{
-        border: 1px solid rgb(219, 214, 214) ;
+        border: 1px solid rgb(192, 186, 186) ;
         background-color: rgb(255, 255, 255);
-        width:80%;
+        width:95%;
+        height: 10vh;
         font-size:10px;
+        border-radius: 0.5rem;
     }
     .annonce-left input[type=file]{
-        border: 1px solid rgb(219, 214, 214) ;
+        border: 1px solid rgb(197, 193, 193) ;
         background-color: rgb(255, 255, 255);
-        width:37%;
+        width:40%;
         font-size:10px;
+        border-radius: 0.5rem;
+
     }
     .annonce-left input[type=submit]{
         border: none;
-        background-color: rgb(157, 207, 207);
+        background-color: rgb(152, 209, 195);
         width:10%;
         font-size:10px;
+        border-radius: 0.5rem;
     }
     .annonce-left input[type=submit]:hover{
         background-color: rgb(55, 138, 138);
@@ -58,9 +66,9 @@
     .left-pub-div{
         margin-top: 1%;
         padding:2%;
-        border: 1px solid rgb(219, 214, 214) ;
         display: grid;
         grid-template-columns: 20% 80%;
+        
     
     }
     .annonce-right{
@@ -71,13 +79,16 @@
         padding: 6%;
      width: 100%;
      max-height: 17vh;
+     /* opacity: 0.4; */
      /* border-radius: 50%; */
     }
     .left-pub-div button{
         margin-top: 1%;
         border:none;
         padding:1.5%;
-        background-color: rgb(190, 183, 77);
+        background-color: rgb(211, 101, 74);
+        border-radius: 0.5rem;
+
     }
     .left-pub-div button:hover{
         background-color: rgb(151, 173, 50);
@@ -89,7 +100,9 @@
         border:none;
         padding:1.5%;
         background-color: rgb(233, 135, 66);
-        margin-left:80%;    
+        margin-left:80%;  
+        border-radius: 0.5rem;
+  
     }
     .plus:hover{
         background-color: rgb(163, 74, 11);
@@ -106,18 +119,38 @@
         width:33%;
     }
     .annonce-right .left-pub h3{
-        background-color:rgb(204, 181, 241) ;
+        background-color:rgb(255, 197, 197) ;
         text-align: center;
         padding: 1%;
     }
     
     .annonce-right .left-pub-div{
-        background-color: rgb(190, 157, 162);
+        background-color: rgb(255, 249, 193);
         padding: 1%;
     }
     .rl{
     text-align: center;
     padding: 1%;
     font-size: 10px;
+    }
+    .hi{
+        font-size: 30px;
+    }
+    .hi:hover{
+        cursor: pointer;
+    
+    }
+    .send{
+        font-size: 40px;
+        padding: 4px;
+        color:rgb(24, 136, 117);
+        /* display: table-cell; */
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    }
+    .send:hover{
+        text-shadow: 2px 2px #302d2d;
+
     }
 }

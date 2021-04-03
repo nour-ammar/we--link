@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../../Images/logoWhite.png"
 import "./Navbar.css";
+import { RiLogoutCircleRLine } from "react-icons/ri";
 
 
 
@@ -71,7 +72,7 @@ const NavBar = () => {
                 onClick={handleClose}
                 style={{ backgroundColor: location.pathname === "/annonce" && "rgb(205, 233, 235)" , fontWeight: location.pathname === "/annonce" && "normal"  }}
               >
-                Annonce   
+                Annonces   
 
               </Link>
             </li>
@@ -97,9 +98,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li>
-              <Link>
-              Logout 
-              </Link>
+              <RiLogoutCircleRLine className="ri" title="Déconnexion"/> 
             </li>
           </ul>
         </div>
