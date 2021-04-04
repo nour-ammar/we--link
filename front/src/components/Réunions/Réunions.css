@@ -1,0 +1,44 @@
+.réunions {
+   
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      .réunions main {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          margin:2.5%;
+          align-items:center;
+
+          
+
+      }
+      .réunions .participant{
+          display: flex;
+          justify-content: space-between;
+      }
+
+   
+
+.réunions .one-reun{
+ background-color: rgb(252, 241, 207);
+ margin:4%;
+ padding: 4%;
+ min-height: 45vh;
+ max-height:45vh;
+
+ 
+
+}
+.réunions .new{
+    font-size: 35px;
+}
+.pin{
+    font-size: 45px;
+    color: rgb(245, 177, 183);
+    margin-top:-5%;
+    margin-right: -5%;
+}
+.pin-div{
+    text-align: right;
+}

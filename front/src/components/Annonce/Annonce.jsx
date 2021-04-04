@@ -46,7 +46,7 @@ function Annonce() {
         </div>
         <div className="annonce-right">
           <div className="left-pub">
-            <h3>Les annones</h3>
+            <marque><h3>Les annones</h3></marque>
             <div className="left-pub-div">
               <div>
                 <img src="https://routemagazine.org/wp-content/uploads/2020/06/photo-cv-lyon-1.jpg" />
