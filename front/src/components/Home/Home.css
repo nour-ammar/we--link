@@ -23,9 +23,20 @@ main img:hover{
     }
     main img{
         width:100%;
+        padding: 0;
         padding: 10%;
+        background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+        background-position: center bottom;
+        background-size: 100% 100%;
+        bottom: -18%;
+        display: block;
+        left: -12%;
+        right: 0;
+        top: 0;
+        z-index: 0; 
 
     }
-
+   
+    
 }
 

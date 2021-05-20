@@ -10,6 +10,7 @@ function Home() {
   return (
     <div className="home">
       <main>
+        
         <img src={Enseignants} />
         <img src={Eleves} />
         <img src={Classes} />

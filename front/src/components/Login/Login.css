@@ -67,6 +67,9 @@ input , select {
     margin:2%;
 }
 #submit:hover{
+  background-color: rgb(83, 151, 127);
+}
+#submit:hover{
     cursor: pointer;
 }
 /* @media only screen and (max-width: 619px) {

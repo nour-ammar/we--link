@@ -119,13 +119,6 @@ hr {
     font-weight: 800px;
     font-size: 18px;
   }
-
-  .list-wrapper ul li a:hover {
-    padding: 5px;
-    color: balck#4d4b4b;
-    /* transform: scale(0.8); */
-    /* background-color: rgb(205, 233, 235); */
-  }
   .ri {
     font-size: 30px;
     vertical-align: middle;
